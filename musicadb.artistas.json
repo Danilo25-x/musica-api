@@ -1,0 +1,12 @@
+[{
+  "_id": {
+    "$oid": "6abd6f3b94df193bcf87c927"
+  },
+  "generos": [
+    "Rock"
+  ],
+  "nombre": "Queen",
+  "biografia": "Banda británica",
+  "paisOrigen": "Reino Unido",
+  "__v": 0
+}]

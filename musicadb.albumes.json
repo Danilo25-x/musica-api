@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "6abd6f8294df193bcf87c929"
+  },
+  "titulo": "A Night at the Opera",
+  "artista": {
+    "$oid": "6abd6f3b94df193bcf87c927"
+  },
+  "anio": 1975,
+  "__v": 0
+}]
