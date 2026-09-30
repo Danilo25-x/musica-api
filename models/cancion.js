@@ -3,8 +3,8 @@ let Schema = mongoose.Schema
 
 let CancionSchema = Schema({
   titulo: String,
-  artista: String,
-  album: String,
+  artista: { type: Schema.Types.ObjectId, ref: 'Artista' },
+  album: { type: Schema.Types.ObjectId, ref: 'Album' },
   anio: Number,
   duracion: Number, // duración en segundos
   genero: String,
